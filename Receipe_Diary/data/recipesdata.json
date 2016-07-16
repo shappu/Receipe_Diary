@@ -1,0 +1,20 @@
+﻿{
+   "rcp1" : {
+   	  "id": 1,
+      "name" : "butter_chicken",
+	  "instructions" : "small chunks of chicken pieces in spicy tomato and onion sauce",
+	  "ingredients" : "boneless chicken, tomotoes, onion, red chili powder, termeric, cumin seeds, garam masala, chicken masala, oil, salt"
+   },
+   "rcp2" : {
+   	  "id": 2,
+      "name" : "Naan",
+	  "instructions" : "",
+	  "ingredients" : "boneless chicken, tomotoes, onion, red chili powder, termeric, cumin seeds, garam masala, chicken masala, oil, salt"
+   },
+   "rcp3" : {
+   	  "id": 3,
+      "name" : "butter_chicken",
+	  "instructions" : "small chunks of chicken pieces in spicy tomato and onion sauce",
+	  "ingredients" : "boneless chicken, tomotoes, onion, red chili powder, termeric, cumin seeds, garam masala, chicken masala, oil, salt"
+   }
+}

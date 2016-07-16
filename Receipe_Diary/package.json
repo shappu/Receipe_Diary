@@ -1,0 +1,9 @@
+{
+  "name": "receipe_diary",
+  "version": "0.0.0",
+  "description": "Receipe_Diary",
+  "main": "server.js",
+  "author": {
+    "name": "Swapnil"
+  }
+}
