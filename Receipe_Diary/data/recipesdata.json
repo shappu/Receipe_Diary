@@ -8,13 +8,13 @@
    "rcp2" : {
    	  "id": 2,
       "name" : "Naan",
-	  "instructions" : "",
-	  "ingredients" : "boneless chicken, tomotoes, onion, red chili powder, termeric, cumin seeds, garam masala, chicken masala, oil, salt"
+	  "instructions" : "Roll the dough made from all_purpose flour into circle and roast them on clay oven",
+	  "ingredients" : "All_purpose flour, salt, water " 
    },
    "rcp3" : {
    	  "id": 3,
-      "name" : "butter_chicken",
-	  "instructions" : "small chunks of chicken pieces in spicy tomato and onion sauce",
-	  "ingredients" : "boneless chicken, tomotoes, onion, red chili powder, termeric, cumin seeds, garam masala, chicken masala, oil, salt"
+      "name" : "Masala_chai",
+	  "instructions" : "Boil the water, then put tea bag, milk or cream and sugar",
+	  "ingredients" : "water, sugar, teabag, milk, cream "
    }
 }

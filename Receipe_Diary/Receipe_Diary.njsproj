@@ -30,8 +30,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app.js" />
-    <Compile Include="settings.js" />
     <Compile Include="controllers\recipes.js" />
     <Compile Include="core\server.js" />
     <Content Include="data\recipesdata.json" />

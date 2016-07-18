@@ -1,8 +1,14 @@
 ﻿
 var fs = require("fs");
 
-exports.getAllRecipes = function (request, response) {
 
+exports.getAllRecipes = function (request, response) {
+    fs.readFile( "../data" + "/" + "recipesdata.json", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(JSON.stringify(data));
+    });
+
+    response.end();
 };
 
 exports.insert = function (request, response, reqbody) {
