@@ -8,11 +8,15 @@ var recipes = require("../controllers/recipes.js");
 var port = process.env.port || 1337;
 
 var server = http.createServer(function (request, response) {
-
+    response.write(request.url);
     switch (request.method) {
         case "GET":
-            if (request.url === "/recipes") {
-                recipes.getAllRecipes(request, respose);
+            if (request.url === "/") {
+                response.end();
+            }
+
+            else if (request.url === "/recipes") {
+                recipes.getAllRecipes(request, response);
             }
             break;
         case "POST":
@@ -31,6 +35,7 @@ var server = http.createServer(function (request, response) {
             }
             break;
         default:
+            console.log("Url does not matches");
             break;
     }
 });
